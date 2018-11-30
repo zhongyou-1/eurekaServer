@@ -56,7 +56,12 @@
             <scope>test</scope>
         </dependency>
         
- 
+         <!--  引入jar 解决启动后服务自动关闭 start -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--  引入jar 解决启动后服务自动关闭  end -->
  
     </dependencies>
 
